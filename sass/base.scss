@@ -1,0 +1,59 @@
+//@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+
+/* Global Variables
+------------------------------------------------------------------------------ */
+
+
+$body_bg:#f1f2f7;
+$text-color:#797979;
+$link-color:#428bca;
+$link-hover-color:#53bee6;
+
+$amount_light: 5;
+$amount_dark: 5;
+$amount_bg: 50;
+
+/* Brand Colors */
+$brand-primary: #41cac0;
+$brand-success: #78CD51;
+$brand-info: #58c9f3;
+$brand-warning: #f1c500;
+$brand-danger: #ff6c60;
+$brand-extra:#8175c7;
+
+$alt-brand-success: #aec785;
+
+$brand-primary-dark: darken($brand-primary, $amount_dark);
+$brand-success-dark : darken($brand-success, $amount_dark);
+$brand-info-dark : darken($brand-info, $amount_dark);
+$brand-warning-dark : darken($brand-warning, $amount_dark);
+$brand-danger-dark : darken($brand-danger, $amount_dark);
+
+/* Alert Box */
+$state-success-text: $brand-success;
+$state-success-bg: lighten($brand-success, $amount_bg);
+$state-success-border: darken($brand-success, $amount_dark);
+
+$state-info-text: $brand-info;
+$state-info-bg: lighten($brand-info, $amount_bg);
+$state-info-border: darken($brand-info, $amount_dark);
+
+$state-warning-text: $brand-warning;
+$state-warning-bg: lighten($brand-warning, $amount_bg);
+$state-warning-border: darken($brand-warning, $amount_dark);
+
+$state-danger-text: $brand-danger;
+$state-danger-bg: lighten($brand-danger, $amount_bg);
+$state-danger-border: darken($brand-danger, $amount_dark);
+
+/* Layout
+------------------------------------------------------------------------------ */
+$_sidebar_width:220px;
+$_header_height:60px;
+
+
+
+
+
