@@ -1,0 +1,256 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+
+/* Global Styles
+------------------------------------------------------------------------------ */
+
+body {
+    background-color:$body_bg;
+    color: $text-color;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Layout
+------------------------------------------------------------------------------ */
+
+#wrap {
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    background: #fff;
+    border-bottom: 1px solid #f1f2f7;
+    min-height: $_header_height;
+    padding: 0 15px;
+}
+#header .navbar-toggle {
+    display: block;
+    float: left;
+    margin-top: 12px;
+    }
+.logo {
+    font-size: 21px;
+    color: #2e2e2e;
+    float: left;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo span {
+    color: #FF6C60;
+}
+#content {
+    margin-left: 210px;
+}
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 15px;
+    width: 100%;
+}
+
+
+/* Content
+------------------------------------------------------------------------------ */
+#content {
+    margin-left: 0;
+    @include transition(all, 0.3s, $easeOutQuad);
+}
+#content.navhide {
+    margin-left: 0;
+}
+body.login #content {
+    margin-left: 0;
+}
+body.login #nav_toggle { display: none;}
+
+.form-login h2.panel-heading {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
+}
+
+
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.bg_primary { background-color: $brand-primary }
+
+.alt.bg_success {
+    background-color: $alt-brand-success;
+}
+
+
+/* Form */
+.form-control {
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+    padding: 10px;
+    height: auto;
+}
+
+
+
+
+/* Sidebar
+------------------------------------------------------------------------------ */
+
+#sidebar {
+    width: $_sidebar_width;
+    height: 100%;
+    position: fixed;
+    background: #2a3542;
+    margin-left: -$_sidebar_width;
+    @include transition(all, 0.3s, $easeOutQuad);
+}
+#sidebar.navhide {
+    margin-left: -$_sidebar_width;
+
+}
+
+ul.sidenav {
+    margin-top: $_header_height;
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+ul.sidenav li {
+    position: relative;
+}
+ul.sidenav li a {
+    color: #aeb2b7;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 20px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    @include transition(all, 0.3s, $easeOutQuad);
+}
+
+ul.sidenav li a:hover {
+    background: #35404d;
+    color: #fff;
+}
+
+ul.sidenav .glyphicon {
+    padding-right: 8px;
+}
+
+
+/* Footer
+------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* 3rd Party CSS
+------------------------------------------------------------------------------ */
+
+/*button*/
+
+.btn-default {
+    background-color: #bec3c7;
+    border-color: #bec3c7;
+    color: #fff;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #b0b5b9;
+    border-color: #b0b5b9;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: $brand-primary-dark;
+    border-color: $brand-primary-dark;
+    color: #FFFFFF;
+}
+
+.btn-success {
+    background-color: $brand-success;
+    border-color: $brand-success;
+    color: #FFFFFF;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    background-color: $brand-success-dark;
+    border-color: $brand-success-dark;
+    color: #FFFFFF;
+}
+
+.btn-info {
+    background-color: $brand-info;
+    border-color: $brand-info;
+    color: #FFFFFF;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    background-color: $brand-info-dark;
+    border-color: $brand-info-dark;
+    color: #FFFFFF;
+}
+
+.btn-warning {
+    background-color: $brand-warning;
+    border-color: $brand-warning;
+    color: #FFFFFF;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+    background-color: $brand-warning-dark;
+    border-color: $brand-warning-dark;
+    color: #FFFFFF;
+}
+
+.btn-danger {
+    background-color: $brand-danger;
+    border-color: $brand-danger;
+    color: #FFFFFF;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    background-color: $brand-danger-dark;
+    border-color: $brand-danger-dark;
+    color: #FFFFFF;
+}
+
+
+/* Custom Media Queries
+------------------------------------------------------------------------------ */
+
+@import 'partials/min-768';
+
+@import 'partials/min-992';
+
+@import 'partials/min-1200';
+
+@import 'partials/min-1400';
+
+@import 'partials/min-1600';
