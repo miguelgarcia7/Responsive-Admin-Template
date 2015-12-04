@@ -3,11 +3,27 @@
 
 /* Brand Colors */
 
+/* Text Colors */
+
 /* Alert Box */
 
 /* Animation | Timing */
 
 /* easeOutQuad */
+
+/* easeOutCubic */
+
+/* easeOutQuart */
+
+/* easeOutExpo */
+
+/* easeInOutQuad */
+
+/* easeInOutCubic */
+
+/* easeInOutQuart */
+
+/* easeInOutExpo */
 
 /* Layout
 ------------------------------------------------------------------------------ */
@@ -119,12 +135,55 @@ body.login #nav_toggle {
   box-shadow: none;
 }
 
-.bg_primary {
+.bg-primary {
   background-color: #41cac0;
+}
+
+.bg-success {
+  background-color: #78CD51;
+}
+
+.bg-info {
+  background-color: #58c9f3;
+}
+
+.bg-warning {
+  background-color: #f1c500;
+}
+
+.bg-danger {
+  background-color: #ff6c60;
 }
 
 .alt.bg_success {
   background-color: #aec785;
+}
+
+/* Section Blocks */
+
+.block-1 {
+  width: 40%;
+  padding: 25px 15px;
+  display: inline-block;
+  border-radius: 4px 0px 0px 4px;
+  text-align: center;
+}
+
+.block-1 i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.text-1 {
+  width: 60%;
+  padding: 25px 5px 0 5px;
+  float: right;
+  text-align: center;
+}
+
+div[class^="text-"],
+div[class*="text-"] {
+  color: #b3b3b3;
 }
 
 /* Form */

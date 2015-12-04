@@ -90,12 +90,36 @@ body.login #nav_toggle { display: none;}
     box-shadow: none;
 }
 
-.bg_primary { background-color: $brand-primary }
+.bg-primary { background-color: $brand-primary }
+.bg-success { background-color: $brand-success }
+.bg-info { background-color: $brand-info }
+.bg-warning { background-color: $brand-warning }
+.bg-danger { background-color: $brand-danger }
 
 .alt.bg_success {
     background-color: $alt-brand-success;
 }
 
+/* Section Blocks */
+.block-1 {
+    width: 40%;
+    padding: 25px 15px;
+    display: inline-block;
+    border-radius: 4px 0px 0px 4px;
+    text-align: center;
+}
+.block-1 i {
+    font-size: 50px; color: #fff;
+}
+.text-1 {
+    width: 60%;
+    padding: 25px 5px 0 5px;
+    float: right;
+    text-align: center;
+}
+div[class^="text-"] , div[class*="text-"] {
+    color: $block-text;
+}
 
 /* Form */
 .form-control {
