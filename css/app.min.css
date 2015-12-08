@@ -108,8 +108,8 @@ h6,
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-#content.navhide {
-  margin-left: 0;
+#content.navshow {
+  margin-left: 220px;
 }
 
 body.login #content {
@@ -207,8 +207,8 @@ div[class*="text-"] {
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-#sidebar.navhide {
-  margin-left: -220px;
+#sidebar.navshow {
+  margin-left: 0;
 }
 
 ul.sidenav {
