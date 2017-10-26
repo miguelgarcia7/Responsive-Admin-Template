@@ -1,0 +1,168 @@
+/* Layout
+------------------------------------------------------------------------------ */
+html, body {
+  background-color: $primary-orange;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  color: $base-body-color;
+  background-color:$body_bg;
+}
+
+/* Content
+------------------------------------------------------------------------------ */
+
+#wrap {
+    width: 100%;
+}
+#content {
+    margin-left: 0;
+}
+#content.navshow {
+    margin-left: $sidebar_width;
+}
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 15px;
+    width: 100%;
+}
+body.login #content {
+    margin-left: 0;
+}
+body.login #nav_toggle { display: none;}
+
+.form-login h2.panel-heading {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
+}
+
+/* Typography
+------------------------------------------------------------------------------ */
+h1, .h1 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #3c4349;
+  margin: 0 0 10px 0;
+  font-weight: $font-regular;
+  letter-spacing: 0;
+}
+h2, .h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: $primary-blue-grey;
+  font-weight: $font-light;
+  margin: 0 0 15px 0;
+  letter-spacing: 0;
+}
+h3, .h3 {
+  font-size: 26px;
+  line-height: 30px;
+  color: $primary-grey;
+  font-weight: $font-light;
+  margin: 0 0 10px 0;
+}
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+  color: $primary-blue-grey;
+  font-weight: $font-bold;
+  margin: 0 0 5px 0;
+  // text-transform: uppercase;
+}
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+  color: $primary-grey;
+  font-weight: $font-regular;
+  margin: 0 0 5px 0;
+}
+h6 {
+  font-size: 15px;
+  line-height: 18px;
+  color: $primary-blue-grey;
+  font-weight: $font-bold;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $base-body-color;
+  margin-bottom: 30px;
+  font-weight: $font-regular;
+}
+
+a {
+  color: $base-link-color;
+  outline: 0;
+}
+
+a:focus {
+  color: $base-link-color;
+  outline: none;
+}
+
+a:hover {
+  color: $base-link-color;
+}
+
+a img {
+  border: none;
+}
+
+ul, ol {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
+sup {
+  vertical-align: super;
+  font-size: 40%;
+}
+
+/* Global Elements
+------------------------------------------------------------------------------ */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  display: table-cell;
+}
+
+table td {
+  display: table-cell;
+}
+
+::-moz-selection {
+  background: #d9d9d8;
+  text-shadow: none;
+}
+
+::selection {
+  background: #d9d9d8;
+  text-shadow: none;
+  }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $border-color;
+  margin: 25px 0;
+  padding: 0;
+  }

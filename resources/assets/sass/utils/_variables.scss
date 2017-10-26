@@ -1,0 +1,97 @@
+/* Global Variables
+------------------------------------------------------------------------------ */
+
+// Font weights
+$font-light:    300;
+$font-regular:  400;
+$font-bold:     700;
+
+// Base Font
+$base-font-family:  'Roboto', sans-serif;
+$base-font-weight:  $font-regular;
+$base-font-size:    16px;
+$base-line-height:  28px;
+$base-body-color:   #797979;
+$base-text-color:   #797979;
+$base-link-color:   #428bca;
+
+// Brand Specifc Colors
+$primary-orange:        #f06000;
+$primary-black:         #262626;
+$primary-blue:          #213648;
+$primary-tilt:          #7accc8;
+$primary-blue-grey:     #3c4349;
+$secondary-blue-grey:   #2d3337;
+$primary-grey:          #505050;
+$secondary-grey:        #666666;
+$tertiary-grey:         #858585;
+$quaternary-grey:       #b0b0b0;
+$quinary-grey:          #f0f0f0;
+$primary-brown:         #704122;
+$secondary-brown:       #d4c6bd;
+$tertiary-brown:        #eae3de;
+
+// Brand specifics elements
+$primary-border-color:      #e5e5e5;
+$secondary-border-color:    #c5c5c5;
+
+// Bootstrap Colors
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #cf0e0e !default; // danger
+$orange:  #fd7e14 !default;
+$yellow:  #f8a80c !default; // warning
+$green:   #57b75b !default; // success
+$teal:    #20c997 !default;
+$cyan:    #2fd6ea !default; // info
+
+$primary:       $primary-orange !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+
+// Variables
+$icon-caret-right:      "\e90a";
+$icon-caret-down:       "\e909";
+$icon-arrow:            "\e902 \00a0 ";
+$icon-arrow-right:      "\e902 \00a0 ";
+$icon-arrow-left:       "\e901 \00a0 ";
+$icon-bullet-type-1:    "\e90d \00a0";
+
+
+// Global controls
+$body_bg:           #f1f2f7;
+$sidebar_color:     #2a3542;
+$sidebar_width:     220px;
+$header_height:     60px;
+
+// Text Colors
+$block-text: lighten($black, 70);
+
+
+
+
+
+
+
+
+

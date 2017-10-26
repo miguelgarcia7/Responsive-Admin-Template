@@ -1,0 +1,43 @@
+/* Sidebar
+------------------------------------------------------------------------------ */
+#sidebar {
+    width: $sidebar_width;
+    height: 100%;
+    position: fixed;
+    background: $sidebar_color;
+    margin-left: -$sidebar_width;
+    // @include transition(all, 0.3s, $easeOutQuad);
+}
+#sidebar.navshow {
+    margin-left: 0;
+
+}
+
+ul.sidenav {
+    margin-top: $header_height;
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+ul.sidenav li {
+    position: relative;
+}
+ul.sidenav li a {
+    color: #aeb2b7;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 20px;
+    font-size: 15px;
+    outline: none;
+    // font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    // @include transition(all, 0.3s, $easeOutQuad);
+}
+
+ul.sidenav li a:hover {
+    background: #35404d;
+    color: #fff;
+}
+
+ul.sidenav .glyphicon {
+    padding-right: 8px;
+}

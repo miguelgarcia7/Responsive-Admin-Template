@@ -25,7 +25,7 @@ var Page = {
     width : $(window).width(),
     height : $(window).height(),
     init : function() {
-        $('.navbar-toggle').on('click', function(e){
+        $('.navbar-toggler').on('click', function(e){
             $('#sidebar').toggleClass( 'navshow' );
             $('#content').toggleClass( 'navshow' );
             e.preventDefault();

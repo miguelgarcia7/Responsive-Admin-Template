@@ -1,0 +1,31 @@
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    background: #fff;
+    border-bottom: 1px solid #f1f2f7;
+    min-height: $header_height;
+    padding: 0 15px;
+}
+#header.navbar {
+
+    justify-content: flex-start;
+}
+#header .navbar-toggler {
+    // display: block;
+    // float: left;
+    // margin-top: 12px;
+    margin-right: 15px;
+    }
+.logo {
+    font-size: 21px;
+    color: #2e2e2e;
+    float: left;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo span {
+    color: $primary;
+}
