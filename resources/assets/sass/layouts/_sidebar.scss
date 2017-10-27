@@ -28,14 +28,14 @@ ul.sidenav li a {
     padding: 15px 0 15px 20px;
     font-size: 15px;
     outline: none;
-    // font-family: 'Lato', sans-serif;
     font-weight: 300;
-    // @include transition(all, 0.3s, $easeOutQuad);
+    @include easeOutQuart(all, 1700ms);
 }
 
 ul.sidenav li a:hover {
-    background: #35404d;
+    background: lighten($sidebar_color, 7%);
     color: #fff;
+    @include easeOutQuart(all, 0ms);
 }
 
 ul.sidenav .glyphicon {

@@ -68,6 +68,10 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+// Table
+$table-accent-bg:   #f5f6f8; // background color on tables when using class .table-striped
+// cards
+$card-cap-bg:       #f5f6f8;
 
 // Variables
 $icon-caret-right:      "\e90a";
