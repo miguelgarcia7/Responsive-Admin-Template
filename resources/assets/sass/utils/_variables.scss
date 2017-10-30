@@ -11,9 +11,10 @@ $base-font-family:  'Roboto', sans-serif;
 $base-font-weight:  $font-regular;
 $base-font-size:    16px;
 $base-line-height:  28px;
+// Base Colors
 $base-body-color:   #797979;
 $base-text-color:   #797979;
-$base-link-color:   #428bca;
+$base-link-color:   #f06000;
 
 // Brand Specifc Colors
 $primary-orange:        #f06000;
@@ -30,10 +31,6 @@ $quinary-grey:          #f0f0f0;
 $primary-brown:         #704122;
 $secondary-brown:       #d4c6bd;
 $tertiary-brown:        #eae3de;
-
-// Brand specifics elements
-$primary-border-color:      #e5e5e5;
-$secondary-border-color:    #c5c5c5;
 
 // Bootstrap Colors
 $white:    #fff !default;
@@ -67,6 +64,10 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+
+// Borders
+$primary-border-color:      $gray-400;
+$secondary-border-color:    #c5c5c5;
 
 // Table
 $table-accent-bg:   #f5f6f8; // background color on tables when using class .table-striped

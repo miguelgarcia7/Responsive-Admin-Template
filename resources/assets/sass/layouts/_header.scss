@@ -28,3 +28,85 @@
 .logo span {
     color: $primary;
 }
+.menu-user {
+    margin-left: 15px;
+}
+.menu-user .user_photo {
+    width: 25px;
+    height: 25px;
+    background: $primary-orange; //#FF6C60;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    border-radius: 2px;
+    text-align: center;
+}
+.menu-user > li > a {
+    border: 1px solid $primary-border-color;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: none;
+    margin-right: 0;
+    display: block;
+}
+.menu-user > li > a:hover {
+    text-decoration: none;
+}
+.menu-user .username {
+    font-size: 13px;
+    color: #555555;
+}
+
+.menu-user .dropdown-menu.extended.logout {
+    top: 41px;
+}
+.menu-user li.dropdown .dropdown-menu {
+    float: right;
+    right: 0;
+    left: auto;
+    width: 240px;
+}
+.dropdown-menu.extended {
+    max-width: 300px !important;
+    min-width: 160px !important;
+    top: 42px;
+    width: 200px;
+    padding: 0;
+    // border: none !important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    // box-shadow: 0 2px 8px rgba(0,0,0,0.176) !important;
+    // border: 1px solid $primary-border-color;
+}
+.dropdown-menu.extended.logout > li {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.dropdown-menu.extended.logout > li:last-child {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background: #a9d96c;
+    border-radius: 0 0 3px 3px;
+}
+
+.dropdown-menu.extended.logout > li > a {
+    color: #a4abbb;
+    border-bottom: none !important;
+}
+.dropdown-menu.extended li a {
+    padding: 15px 10px !important;
+    width: 100%;
+    display: inline-block;
+}
+.dropdown-menu.extended.logout > li:last-child > a, .dropdown-menu.extended.logout > li:last-child > a:hover {
+    color: #fff;
+    border-bottom: none !important;
+    text-transform: uppercase;
+}
+
