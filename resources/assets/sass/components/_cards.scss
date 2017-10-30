@@ -6,10 +6,48 @@
     margin-bottom: 20px;
     // border: 1px solid rgba(0,0,0,.100);
 }
+
 .card-header {
     color: #2a3542;
     background-color:#fff;
 }
+.card-body-sm {
+    min-height: 100px;
+}
+.card-body-md {
+    min-height: 200px;
+}
+.card-body-lg {
+    min-height: 300px;
+}
 .card .table {
     margin-bottom: 0;
 }
+.uix-card-header {
+    border-bottom: none;
+    background-color: #7087A3;
+}
+.uix-card-header .nav {
+    margin: -12px -20px -12px;
+}
+.uix-card-header .nav > li.active > a,
+.uix-card-header .nav > li > a:hover,
+.uix-card-header .nav > a.active,
+.uix-card-header .nav > a:hover {
+    color: #47596f;
+    background: #fff;
+}
+.uix-card-header .nav > li > a,
+.uix-card-header .nav > a {
+    color: #fff;
+    border-radius: 0;
+    border-width: 0;
+    border-radius: 0;
+}
+// .uix-card-header .nav > li > a,
+// .uix-card-header .nav > li.active > a,
+// .uix-card-header .nav > li.active > a:hover,
+// .uix-card-header .nav > li.active > a:focus {
+//     border-width: 0;
+//     border-radius: 0;
+// }
